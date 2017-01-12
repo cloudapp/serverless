@@ -1,8 +1,6 @@
-'use strict';
+var Serverless = require('../lib/Serverless');
 
-const Serverless = require('../lib/Serverless');
-
-const serverless = new Serverless();
+var serverless = new Serverless();
 
 (function() {
   serverless.init()
